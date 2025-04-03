@@ -8,8 +8,7 @@
 <body>
     <h1>Fugina Dušan</h1>
     <?php
-        // gesla se ne pišejo v programske stavke. napiši v svojo datoteko in datoteko izključi iz GIT-a (git ignore)
-        // 
+        // DB config
         require_once 'db_config.php';
 
         $conn = new mysqli($servername, $username, $password, $database);
